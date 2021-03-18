@@ -13,3 +13,4 @@ provisioner: {{ .Values.storageProvisioner | quote }}
 parameters:
   type: {{ .Values.storageType | quote }}
 {{- end -}}
+allowVolumeExpansion: true
